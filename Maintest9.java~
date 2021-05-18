@@ -1,0 +1,36 @@
+public class Maintest9
+{
+  public static void main(String[]args)
+  {
+    BankAccount acc1=new BankAccount();
+    acc1.setName("bracu");
+    acc1.setAccountId("111");
+    acc1.setAddress("mohakhali");
+    acc1.setBalance(1000.0);
+    acc1.addInterest();
+    BankAccount acc2=new BankAccount();
+    acc2.setName("nsu");
+    acc2.setAccountId("222");
+    acc2.setAddress("boshundhora");
+    acc2.setBalance(2000.0);
+    BankAccount acc3=new BankAccount();
+    acc3.setName("aiub");
+    acc3.setAccountId("333");
+    acc3.setAddress("badda");
+    acc3.setBalance(3000.0);
+    acc3.addInterest();
+    System.out.println(acc1.getName());
+    System.out.println(acc1.getAccountId());
+    System.out.println(acc1.getAddress());
+    System.out.println(acc1.getBalance());
+    System.out.println(acc2.getName());
+    System.out.println(acc2.getAccountId());
+    System.out.println(acc2.getAddress());
+    System.out.println(acc2.getBalance());
+    System.out.println(acc3.getName());
+    System.out.println(acc3.getAccountId());
+    System.out.println(acc3.getAddress());
+    System.out.println(acc3.getBalance());
+  }
+}
+    
